@@ -44,7 +44,7 @@ model = dict(
         num_convs=1,
         concat_input=False,
         dropout_ratio=0.1,
-        num_classes=15,
+        num_classes=18,
         norm_cfg=dict(type='SyncBN', requires_grad=True),
         align_corners=False,
         loss_decode=[
@@ -231,7 +231,7 @@ data = dict(
                 type='MultiScaleFlipAug',
                 img_scale=(512, 512),
                 img_ratios=[0.75, 1.0, 1.25, 1.5],
-                flip=False,
+                flip=True,
                 transforms=[
                     dict(type='Resize', keep_ratio=True),
                     dict(type='RandomFlip'),
