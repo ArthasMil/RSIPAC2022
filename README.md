@@ -1,7 +1,7 @@
 # RSIPAC2022
 RSIPAC 2022 @Track3
 ---
-### Track 3: Semantic Segmentations
+### Track 3: Semantic Segmentation
 ---
 
 TODO: upload the tuned class weights for CE loss and the DICE loss after the final phase.
