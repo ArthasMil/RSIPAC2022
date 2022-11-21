@@ -20,7 +20,7 @@ TODO: upload the tuned class weights for CE loss and the DICE loss after the fin
 ---
 #### Update 2022/11/17
 ### Main features of Basic Model:
-- CE + Loss 1:2
+- CE + DICE loss (1:2)
 - Multiple augmentations with Albu to avoid overfitting
 - TTA
 - SWA 
