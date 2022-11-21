@@ -3,7 +3,9 @@ RSIPAC 2022 @Track3
 ---
 ### Track 3: Semantic Segmentations
 ---
+
 TODO: upload the tuned class weights for CE loss and the DICE loss after the final phase.
+
 ---
 #### Update 2022/11/20
 - We uploaded the final version of our model configuration. We used a cas-training approach: the model is initially trained @512x512 and then tuned @768x768. 
