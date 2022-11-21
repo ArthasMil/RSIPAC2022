@@ -4,7 +4,7 @@ RSIPAC 2022 @Track3
 ### Track 3: Semantic Segmentations
 ---
 #### Update 2022/11/20
-- We updated the 
+- We uploaded the final version of our model configuration. We used a cas-training approach: the model is initially trained @512x512 and then tuned @768x768. 
 
 ---
 #### Update 2022/11/19
